@@ -6,15 +6,16 @@ from pulp import LpProblem, LpVariable, LpMaximize, lpSum, LpBinary, LpStatusOpt
 import io
 from datetime import datetime
 import json
-
-# --- Google Sheets Feedback Integration ---
 import gspread
 from google.oauth2.service_account import Credentials
-
+import tempfile
 SHEET_ID = "1Bk3dhEUGiPbkmHR-ENiZD7SmpHTY0i4uyOZ6wYNkbZg"
 TAB_NAME = "Sheet1"
-CREDS_FILE = "gcreds.json"  # Use relative path for deployment
 
+# Use Streamlit secrets for credentials
+with tempfile.NamedTemporaryFile(delete=False, suffix=".json") as tmpfile:
+    tmpfile.write(st.secrets["gcp_service_account"].encode())
+    CREDS_FILE = tmpfile.name
 def append_feedback_to_gsheet(feedback_text):
     scope = [
         "https://www.googleapis.com/auth/spreadsheets",
