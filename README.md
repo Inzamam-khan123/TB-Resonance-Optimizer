@@ -1,4 +1,8 @@
 ---
+title: TB Resonance Optimizer
+description: Optimize your Survivor.io Tech Box resonance!
+---
+---
 
 ## **TB Resonance Optimizer**
 
