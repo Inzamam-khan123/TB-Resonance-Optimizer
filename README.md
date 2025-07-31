@@ -8,7 +8,7 @@ Description: Optimize your Survivor.io Tech Box resonance!
 
 ### **What is this app?**
 
-**TB Resonance Optimizer** is a powerful, user-friendly web app designed for players of [Survivor.io](https://survivorio.fandom.com/wiki/Resonance) who want to maximize their **Tech Box (TB) resonance**.  
+**TB Resonance Optimizer** is a powerful, user-friendly web app designed for players of [Survivor.io](https://survivorio.fandom.com/wiki) who want to maximize their **Tech Box (TB) resonance**.  
 It helps you find the best possible configuration of your available parts and chips to meet your resonance goals, save time, and get the most out of your upgrades.
 
 ---
