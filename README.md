@@ -33,7 +33,7 @@ It helps you find the best possible configuration of your available parts and ch
 ### **How to Use**
 
 1. **Open the app:**  
-   Go to [your app’s URL](https://tb-resonance-optimizerpy-inzamamkhan.streamlit.app/) in any browser.
+   Go to [TB Resonance Optimizer](https://tb-resonance-optimizerpy-inzamamkhan.streamlit.app/) in any browser.
 
 2. **Choose or load a preset:**  
    - Select a built-in or custom preset from the dropdown, or enter your own configuration.
